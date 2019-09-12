@@ -1,7 +1,7 @@
 # http get请求 携带参数说明：
 # 扫描
 示例:
-    url = 47.103.36.8:80/scan?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245
+    url = ******:80/scan?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245
 
 必选参数：
     brand   start_time      end_time
@@ -21,7 +21,7 @@
 
 # 验伪
 示例:
-    url = 47.103.36.8:80/antifake?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245
+    url = ******:80/antifake?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245
 
 必选参数：
     brand   start_time      end_time
@@ -41,7 +41,7 @@
 
 # 窜货
 示例:
-    url = 47.103.36.8:80/cluster?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245&limit=10&isAsc=True
+    url = ******:80/cluster?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245&limit=10&isAsc=True
 
 必选参数：
     brand   start_time      end_time
@@ -54,7 +54,7 @@
 
 # 发货_产品维度
 示例:
-    url = 47.103.36.8:80/delivery_product?brand=121&start_time=2019-08-01&end_time=2019-08-02&dealers=123,124&productions=236,245
+    url = ******:80/delivery_product?brand=121&start_time=2019-08-01&end_time=2019-08-02&dealers=123,124&productions=236,245
 
 必选参数：
     brand   start_time      end_time
@@ -69,7 +69,7 @@
 
 # 发货_渠道商维度
 示例:
-    url = 47.103.36.8:80/delivery_distributor?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245
+    url = ******:80/delivery_distributor?brand=121&start_time=2019-08-01&end_time=2019-08-02&provinces=12,13,14&dealers=123,124&productions=236,245
 
 必选参数：
     brand   start_time      end_time
@@ -84,7 +84,7 @@
 
 # 普通营销红包
 示例:
-    url = 47.103.36.8:80/ordred?brand=121&start_time=2019-08-01&end_time=2019-08-02&activity=12,13,14&dealers=123,124&productions=236,245
+    url = ******:80/ordred?brand=121&start_time=2019-08-01&end_time=2019-08-02&activity=12,13,14&dealers=123,124&productions=236,245
 
 必选参数：
     brand   start_time      end_time
@@ -114,7 +114,7 @@
 
 # 下拉框条件
 示例:
-    url = 47.103.36.8:80/conditions?brand=121
+    url = ******:80/conditions?brand=121
 必选参数:
     brand
 
